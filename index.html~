@@ -11,22 +11,30 @@ The format is:
 <h2>Graph drawing into the URL</h2>
 
 <verbatim>
-http://xtec.cat/~jciberta/webGraphEd/webGraphEd.html?layout=vt&embed=true&width=300&height=200&format=gml&graph=graph%20[%0A%20%20comment%20%22Binary%20tree%22%0A%20%20node%20[%20id%201%20label%20%22Node%201%22%20]%0A%20%20node%20[%20id%202%20label%20%22Node%202%22%20]%0A%20%20node%20[%20id%203%20label%20%22Node%203%22%20]%0A%20%20node%20[%20id%204%20label%20%22Node%204%22%20]%0A%20%20node%20[%20id%205%20label%20%22Node%205%22%20]%0A%0A%20%20edge%20[%20source%201%20target%202%20]%0A%20%20edge%20[%20source%201%20target%203%20]%0A%20%20edge%20[%20source%202%20target%204%20]%0A%20%20edge%20[%20source%202%20target%205%20]%0A]
+http://xtec.cat/~jciberta/webGraphEd/webGraphEd.min.html?layout=vt&embed=true&width=300&height=200&format=gml&graph=graph%20[%0A%20%20comment%20%22Binary%20tree%22%0A%20%20node%20[%20id%201%20label%20%22Node%201%22%20]%0A%20%20node%20[%20id%202%20label%20%22Node%202%22%20]%0A%20%20node%20[%20id%203%20label%20%22Node%203%22%20]%0A%20%20node%20[%20id%204%20label%20%22Node%204%22%20]%0A%20%20node%20[%20id%205%20label%20%22Node%205%22%20]%0A%0A%20%20edge%20[%20source%201%20target%202%20]%0A%20%20edge%20[%20source%201%20target%203%20]%0A%20%20edge%20[%20source%202%20target%204%20]%0A%20%20edge%20[%20source%202%20target%205%20]%0A]
 </verbatim>
+
+<p>
 
 We get:
 
-<iframe height="220" src="http://xtec.cat/~jciberta/webGraphEd/webGraphEd.html?layout=vt&embed=true&width=300&height=200&format=gml&graph=graph%20[%0A%20%20comment%20%22Binary%20tree%22%0A%20%20node%20[%20id%201%20label%20%22Node%201%22%20]%0A%20%20node%20[%20id%202%20label%20%22Node%202%22%20]%0A%20%20node%20[%20id%203%20label%20%22Node%203%22%20]%0A%20%20node%20[%20id%204%20label%20%22Node%204%22%20]%0A%20%20node%20[%20id%205%20label%20%22Node%205%22%20]%0A%0A%20%20edge%20[%20source%201%20target%202%20]%0A%20%20edge%20[%20source%201%20target%203%20]%0A%20%20edge%20[%20source%202%20target%204%20]%0A%20%20edge%20[%20source%202%20target%205%20]%0A]" width="320"></iframe>
+<p>
+
+<iframe height="220" src="http://xtec.cat/~jciberta/webGraphEd/webGraphEd.min.html?layout=vt&embed=true&width=300&height=200&format=gml&graph=graph%20[%0A%20%20comment%20%22Binary%20tree%22%0A%20%20node%20[%20id%201%20label%20%22Node%201%22%20]%0A%20%20node%20[%20id%202%20label%20%22Node%202%22%20]%0A%20%20node%20[%20id%203%20label%20%22Node%203%22%20]%0A%20%20node%20[%20id%204%20label%20%22Node%204%22%20]%0A%20%20node%20[%20id%205%20label%20%22Node%205%22%20]%0A%0A%20%20edge%20[%20source%201%20target%202%20]%0A%20%20edge%20[%20source%201%20target%203%20]%0A%20%20edge%20[%20source%202%20target%204%20]%0A%20%20edge%20[%20source%202%20target%205%20]%0A]" width="320"></iframe>
 
 <h2>Graph drawing on an external file</h2>
 
 <verbatim>
-http://xtec.cat/~jciberta/webGraphEd/webGraphEd.html?layout=fd&embed=true&width=400&height=300&url=http://xtec.cat/~jciberta/webGraphEd/binary-tree2.gml
+http://xtec.cat/~jciberta/webGraphEd/webGraphEd.min.html?layout=fd&embed=true&width=400&height=300&url=http://xtec.cat/~jciberta/webGraphEd/binary-tree2.gml
 </verbatim>
+
+<p>
 
 We get:
 
-<iframe height="220" src="http://xtec.cat/~jciberta/webGraphEd/webGraphEd.html?layout=fd&embed=true&width=400&height=300&url=http://xtec.cat/~jciberta/webGraphEd/binary-tree2.gml" width="320"></iframe>
+<p>
+
+<iframe height="220" src="http://xtec.cat/~jciberta/webGraphEd/webGraphEd.min.html?layout=fd&embed=true&width=400&height=300&url=http://xtec.cat/~jciberta/webGraphEd/binary-tree2.gml" width="320"></iframe>
 
 </body>
 </html>
